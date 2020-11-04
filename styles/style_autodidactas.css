@@ -1,0 +1,132 @@
+body {
+  margin: 0px;
+}
+.nav-bar {
+  display: block;
+  background-color: black;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav-bar i {
+  padding: 10px;
+}
+.nav-bar p {
+  color: white;
+  display: inline;
+}
+h1 {
+  font-family: "Crimson Text", serif;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.articulo-section-autodidact {
+  width: 700px;
+  background-color: white;
+  margin-left: 200px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.articulo-section-autodidact p {
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.text-exam {
+  font-weight: bold;
+  color: rgb(18, 18, 105);
+}
+.img-pseudo {
+  width: 300px;
+}
+.img-diagrama {
+  width: 500px;
+}
+.sig-cap {
+  margin-top: -10px;
+  float: right;
+  cursor: pointer;
+  color: rgb(18, 18, 105);
+}
+.content-msj {
+  text-align: center;
+  margin-top: 150px;
+  font-family: "Crimson Text", serif;
+}
+.donates-boton {
+  text-align: center;
+  width: 300px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  float: right;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  animation: changeColor 15s infinite;
+}
+
+.comments-btn {
+  border-radius: 15px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.comments-btn:hover {
+  color: orange;
+}
+a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .nav-bar {
+    width: 100%;
+  }
+  .articulo-section-autodidact {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .img-diagrama {
+    width: 300px;
+  }
+  .donates-boton {
+    position: absolute;
+    width: 100%;
+    margin-left: 5px;
+  }
+}
+@media only screen and (min-width: 680px) {
+  .articulo-section-autodidact {
+    width: 70%;
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .articulo-section-autodidact {
+    width: 60%;
+    margin-left: 200px;
+  }
+  .donates-boton {
+    margin-right: 10px;
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: black;
+  }
+
+  50% {
+    background-color: orange;
+  }
+
+  100% {
+    background-color: black;
+  }
+}

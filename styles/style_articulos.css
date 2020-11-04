@@ -1,0 +1,89 @@
+body {
+  margin: 0px;
+}
+.nav-bar {
+  display: block;
+  background-color: black;
+  height: 50px;
+}
+
+.nav-bar i {
+  padding: 10px;
+}
+.nav-bar p {
+  color: white;
+  display: inline;
+}
+.wraper-content {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 60px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Crimson Text", serif;
+  margin-top: 50px;
+}
+.content-articles {
+  margin-left: 10px;
+  width: 300px;
+  height: auto;
+  border: 3px solid white;
+  color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-family: "Crimson Text", serif;
+}
+.pre-info-articles {
+  height: 200px;
+  border-top: 2px solid white;
+  margin-right: 5px;
+}
+.pre-info-articles p {
+  margin-top: 30px;
+  font-family: "Crimson Text", serif;
+  color: black;
+}
+.boton {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+/*Responsive for mobil*/
+@media only screen and (max-width: 600px) {
+  .wraper-content {
+    width: 100%;
+    background-image: none;
+    background-color: #fc8300;
+  }
+  .content-articles {
+    width: 70%;
+  }
+}
+@media (min-width: 760px) {
+  .wraper-content {
+    background-image: none;
+    background-color: #fc8300;
+  }
+}
+@media (min-width: 1000px) {
+  .wraper-content {
+    background-image: url(../images/entrepreneur-593377_1920.jpg);
+  }
+}
